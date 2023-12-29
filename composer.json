@@ -1,0 +1,14 @@
+{
+    "name": "hexlet/code",
+    "bin": [
+        "bin/brain-games"
+    ],
+    "description": "My first project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "require": {}
+}
