@@ -2,7 +2,8 @@
     "name": "hexlet/code",
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "description": "My first project",
     "license": "MIT",
@@ -10,7 +11,8 @@
         "files": [
             "src/Cli.php",
             "src/Games/MyProjectEven.php",
-            "src/Engine.php"
+            "src/Engine.php",
+            "src/Games/MyCalc.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
