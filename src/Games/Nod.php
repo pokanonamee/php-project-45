@@ -35,5 +35,4 @@ function gcd(string $name)
 
     $task = 'Find the greatest common divisor of given numbers.';
     communication($finalAssocArray, $name, $task);
-
 }
