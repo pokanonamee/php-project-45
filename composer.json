@@ -1,18 +1,24 @@
 {
     "name": "hexlet/code",
     "bin": [
+        "bin/brain-progression",
+        "bin/brain-gcd",
         "bin/brain-games",
         "bin/brain-even",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-prime"
     ],
     "description": "My first project",
     "license": "MIT",
     "autoload": {
         "files": [
+            "src/Games/MyPrime.php",
+            "src/Games/Nod.php",
             "src/Cli.php",
             "src/Games/MyProjectEven.php",
             "src/Engine.php",
-            "src/Games/MyCalc.php"
+            "src/Games/MyCalc.php",
+            "src/Games/progress.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
