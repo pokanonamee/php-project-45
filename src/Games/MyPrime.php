@@ -34,7 +34,6 @@ function isPrime(string $name)
     $task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
     communication($finalAssocArray, $name, $task);
-
 }
 
 function simplicity(int $number)
