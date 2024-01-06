@@ -1,8 +1,6 @@
 <?php
 
-
 namespace BrainGames\Cli;
-
 function even()
 {
     $name = run();
@@ -21,6 +19,7 @@ function isEven(string $name)
             $finalAssocArray[$number] = 'no';
         }
     }
+
 
     $task = 'Answer "yes" if the number is even, otherwise answer "no".';
     communication($finalAssocArray, $name, $task);

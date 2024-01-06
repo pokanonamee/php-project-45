@@ -1,9 +1,9 @@
 <?php
+
 namespace BrainGames\Cli;
 
 use function cli\line;
 use function cli\prompt;
-
 function communication(array $finalAssocArray, string $name, string $task)
 {
     line($task);

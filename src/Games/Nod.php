@@ -2,7 +2,7 @@
 
 namespace BrainGames\Cli;
 
-
+use function BrainGames\Cli\run;
 
 function divisor()
 {

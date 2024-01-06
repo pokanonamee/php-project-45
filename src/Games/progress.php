@@ -11,10 +11,8 @@ function progressions()
 
 function progression(string $name)
 {
-    $progression = [];
     $questions = [];
     $answers = [];
-    $finalAssocArray = [];
 
     for ($i = 0; $i < 3; $i++) {
         $start = rand(0, 3);

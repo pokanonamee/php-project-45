@@ -1,9 +1,6 @@
 <?php
 
 namespace BrainGames\Cli;
-
-
-
 function mycalc()
 {
     $name = run();
@@ -31,5 +28,6 @@ function calc(string $name)
     }
 
     $task = 'What is the result of the expression?';
+
     communication($finalAssocArray, $name, $task);
 }
