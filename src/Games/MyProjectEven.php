@@ -1,6 +1,7 @@
 <?php
 
 namespace BrainGames\Cli;
+
 function even()
 {
     $name = run();

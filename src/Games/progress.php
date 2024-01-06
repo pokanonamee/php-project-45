@@ -1,6 +1,5 @@
 <?php
 
-
 namespace BrainGames\Cli;
 
 function progressions()

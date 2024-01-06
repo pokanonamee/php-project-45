@@ -1,6 +1,7 @@
 <?php
 
 namespace BrainGames\Cli;
+
 function mycalc()
 {
     $name = run();
