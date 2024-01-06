@@ -14,6 +14,7 @@ function gcd(string $name)
 {
     $questions = [];
     $answers = [];
+    $finalAssocArray = [];
 
     for ($i = 0; $i < 3; $i++) {
         $first = rand(1, 100);
