@@ -3,4 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/e22b5f35eab3cec27eb7/maintainability)](https://codeclimate.com/github/pokanonamee/php-project-45/maintainability)
 
-https://asciinema.org/connect/4f2209ba-040f-4c19-9281-c66184287171
+
+asciinema recordings:
+-[brain-calc](https://asciinema.org/a/FkahFN4k3TJfdMzrr3V8QMulR)
+
