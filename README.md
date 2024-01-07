@@ -4,7 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/e22b5f35eab3cec27eb7/maintainability)](https://codeclimate.com/github/pokanonamee/php-project-45/maintainability)
 
 
-asciinema recordings:
+ASCIINEMA RECORDINDS:
 
--[brain-calc](https://asciinema.org/a/FkahFN4k3TJfdMzrr3V8QMulR)
+[BRAIN-CALC](https://asciinema.org/a/FkahFN4k3TJfdMzrr3V8QMulR)
 
