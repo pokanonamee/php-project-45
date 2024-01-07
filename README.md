@@ -9,7 +9,7 @@ ABOUT
 
 
 
-ASCIINEMA RECORDINDS:
+ASCIINEMA RECORDINGS:
 
 [BRAIN-CALC](https://asciinema.org/a/FkahFN4k3TJfdMzrr3V8QMulR)
 
