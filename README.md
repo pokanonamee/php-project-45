@@ -19,4 +19,5 @@ ASCIINEMA RECORDINGS:
 
 [BRAIN-PRIME](https://asciinema.org/a/Tj4iyJScHEAVAYafFjQCfMPg2)
 
-[brain-pime](<a href="https://asciinema.org/a/Tj4iyJScHEAVAYafFjQCfMPg2" target="_blank"><img src="https://asciinema.org/a/Tj4iyJScHEAVAYafFjQCfMPg2.svg" /></a>)
+BRAIN-PRIME
+<a href="https://asciinema.org/a/Tj4iyJScHEAVAYafFjQCfMPg2" target="_blank"><img src="https://asciinema.org/a/Tj4iyJScHEAVAYafFjQCfMPg2.svg" /></a>
