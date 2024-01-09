@@ -23,3 +23,6 @@ ASCIINEMA RECORDINGS:
 
 
 [![BRAIN-PROGRESSION](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO.cast)](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)
+
+
+(<script src="https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.js" id="asciicast-bJMOlPe5F4mFLY0Rl6fiJSOp3" async></script>)
