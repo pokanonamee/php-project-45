@@ -19,10 +19,8 @@ ASCIINEMA RECORDINGS:
 
 [BRAIN-PRIME](https://asciinema.org/a/Tj4iyJScHEAVAYafFjQCfMPg2)
 
-[BRAIN-PROGRESSION](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)
+[![BRAIN-PROGRESSION](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)
 
 
 [![BRAIN-PROGRESSION](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO.cast)](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)
 
-
-(<script src="https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.js" id="asciicast-bJMOlPe5F4mFLY0Rl6fiJSOp3" async></script>)
