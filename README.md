@@ -20,3 +20,6 @@ ASCIINEMA RECORDINGS:
 [BRAIN-PRIME](https://asciinema.org/a/Tj4iyJScHEAVAYafFjQCfMPg2)
 
 [BRAIN-PROGRESSION](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)
+
+
+[BRAIN-CALC](<script src="https://asciinema.org/a/FkahFN4k3TJfdMzrr3V8QMulR" id="asciicast-hFkahFN4k3TJfdMzrr3V8QMulR" async></script>)

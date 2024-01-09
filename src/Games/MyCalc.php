@@ -2,7 +2,7 @@
 
 namespace BrainGames\Cli;
 
-function mycalc()
+function sum()
 {
     $name = run();
     calc($name);

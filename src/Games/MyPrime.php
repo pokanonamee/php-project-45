@@ -2,7 +2,7 @@
 
 namespace BrainGames\Cli;
 
-function GamePrime()
+function prime()
 {
     $name = run();
     isPrime($name);
