@@ -22,4 +22,4 @@ ASCIINEMA RECORDINGS:
 [BRAIN-PROGRESSION](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)
 
 
-[![asciicast](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO.cast)](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)
+[![BRAIN-PROGRESSION](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO.cast)](https://asciinema.org/a/1Nras6d1m7taqZcYHliEO9oZO)
