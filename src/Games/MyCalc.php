@@ -5,30 +5,28 @@ namespace BrainGames\Cli;
 function sum()
 {
     $name = run();
-    calc($name);
+    $questionsAndAnswers = calc($name);
+    $task = 'What is the result of the expression?';
+    communication($questionsAndAnswers, $task);
 }
 
-function calc(string $name)
+function calc($questionsAndAnswers)
 {
-    $finalAssocArray = [];
 
     for ($i = 0; $i < 3; $i++) {
         $first = rand(1, 100);
         $second =  rand(1, 100);
         switch (mt_rand(1, 3)) {
             case 1:
-                $finalAssocArray["$first - $second"] = $first - $second;
+                $questionsAndAnswers["$first - $second"] = $first - $second;
                 break;
             case 2:
-                $finalAssocArray["$first + $second"] = $first + $second;
+                $questionsAndAnswers["$first + $second"] = $first + $second;
                 break;
             case 3:
-                $finalAssocArray["$first * $second"] = $first * $second;
+                $questionsAndAnswers["$first * $second"] = $first * $second;
                 break;
         }
     }
-
-    $task = 'What is the result of the expression?';
-
-    communication($finalAssocArray, $name, $task);
+return $questionsAndAnswers;
 }
