@@ -22,5 +22,5 @@ function isEven()
             $questionsAndAnswers[$number] = 'no';
         }
     }
-return $questionsAndAnswers;
+    return $questionsAndAnswers;
 }

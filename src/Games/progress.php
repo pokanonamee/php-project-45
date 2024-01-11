@@ -8,7 +8,6 @@ function progressions()
     $questionsAndAnswers = progression();
     $task = 'What number is missing in the progression?';
     communication($questionsAndAnswers, $name, $task);
-
 }
 
 function progression()

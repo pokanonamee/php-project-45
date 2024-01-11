@@ -29,5 +29,5 @@ function calc()
                 break;
         }
     }
-return $questionsAndAnswers;
+    return $questionsAndAnswers;
 }
