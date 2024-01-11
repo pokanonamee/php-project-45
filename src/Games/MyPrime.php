@@ -5,41 +5,29 @@ namespace BrainGames\Cli;
 function prime()
 {
     $name = run();
-    isPrime($name);
+    $questionsAndAnswers = isPrime();
+    $task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+    communication($questionsAndAnswers, $name, $task);
 }
-function isPrime(string $name)
-{
 
-    $answers = [];
-    $randArray = [];
-    $questions = [];
+function isPrime()
+{
+    $questionsAndAnswers = [];
 
     for ($i = 0; $i < 3; $i++) {
-        $randArray[] = rand(1, 100);
+        $number = rand(1, 100);
+        $questionsAndAnswers[$number] = isPrimeNumber($number) ? 'yes' : 'no';
     }
-
-    foreach ($randArray as $number) {
-        $questions[] = $number;
-
-        $flag = simplicity($number);
-
-        if ($flag == true) {
-            $answers[] = 'yes';
-        } else {
-            $answers[] = 'no';
-        }
-    }
-    $finalAssocArray = array_combine($questions, $answers);
-
-    $task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-
-    communication($finalAssocArray, $name, $task);
+    return $questionsAndAnswers;
 }
 
-function simplicity(int $number)
+function isPrimeNumber(int $number): bool
 {
-    for ($i = 2; $i < $number; $i++) {
-        if ($number % $i == 0) {
+    if ($number < 2) {
+        return false;
+    }
+    for ($i = 2; $i <= sqrt($number); $i++) {
+        if ($number % $i === 0) {
             return false;
         }
     }

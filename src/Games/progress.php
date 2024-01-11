@@ -5,10 +5,13 @@ namespace BrainGames\Cli;
 function progressions()
 {
     $name = run();
-    progression($name);
+    $questionsAndAnswers = progression();
+    $task = 'What number is missing in the progression?';
+    communication($questionsAndAnswers, $name, $task);
+
 }
 
-function progression(string $name)
+function progression()
 {
     $questions = [];
     $answers = [];
@@ -24,9 +27,5 @@ function progression(string $name)
         $progression[$randKey] = '..';
         $questions[$i] = implode(' ', $progression);
     }
-    $finalAssocArray = array_combine($questions, $answers);
-
-    $task = 'What number is missing in the progression?';
-
-    communication($finalAssocArray, $name, $task);
+    return array_combine($questions, $answers);
 }

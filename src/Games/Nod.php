@@ -7,14 +7,15 @@ use function BrainGames\Cli\run;
 function divisor()
 {
     $name = run();
-    gcd($name);
+    $questionsAndAnswers = gcd();
+    $task = 'Find the greatest common divisor of given numbers.';
+    communication($questionsAndAnswers, $name, $task);
 }
 
-function gcd(string $name)
+function gcd()
 {
     $questions = [];
     $answers = [];
-    $finalAssocArray = [];
 
     for ($i = 0; $i < 3; $i++) {
         $first = rand(1, 100);
@@ -31,8 +32,5 @@ function gcd(string $name)
         }
         $answers[$i] = $second;
     }
-    $finalAssocArray = array_combine($questions, $answers);
-
-    $task = 'Find the greatest common divisor of given numbers.';
-    communication($finalAssocArray, $name, $task);
+    return array_combine($questions, $answers);
 }
