@@ -1,21 +1,30 @@
 <?php
 
-namespace BrainGames\Cli;
+namespace BrainGames\Engine;
 
 use function cli\line;
 use function cli\prompt;
 
-function communication(array $questionsAndAnswers, string $name, string $task)
+const NUMBER_OF_ROUNDS = 3;
+
+function playGame(string $description, array $gameData): void
 {
-    line($task);
-    foreach ($questionsAndAnswers as $key => $value) {
-        $answer = prompt("Question: $key\nYour answer");
-        if ($answer != $value) {
-            line("'$answer' is wrong answer ;(. Correct answer was '$value'. \nLet's try again, $name!");
+    line('Welcome to the Brain Games!');
+    $name = prompt('May I have your name?');
+    line("Hello, %s!", $name);
+    line($description);
+
+    foreach ($gameData as [$question, $correctAnswer]) {
+        line('Question: %s', $question);
+        $userAnswer = prompt('Your answer');
+
+        if ($userAnswer !== $correctAnswer) {
+            line("'%s' is wrong answer ;(. Correct answer was '%s'.", $userAnswer, $correctAnswer);
+            line("Let's try again, %s!", $name);
+
             return;
-        } else {
-            line("Correct!");
         }
+        line('Correct!');
     }
-    line("Congratulations, $name!");
+    line("Congratulations, %s!", $name);
 }

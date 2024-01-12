@@ -12,13 +12,13 @@
     "license": "MIT",
     "autoload": {
         "files": [
-            "src/Games/MyPrime.php",
-            "src/Games/Nod.php",
+            "src/Games/Prime.php",
+            "src/Games/Gcd.php",
             "src/Cli.php",
-            "src/Games/MyProjectEven.php",
+            "src/Games/Even.php",
             "src/Engine.php",
-            "src/Games/MyCalc.php",
-            "src/Games/progress.php"
+            "src/Games/Calc.php",
+            "src/Games/Progress.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
